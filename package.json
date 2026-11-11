@@ -1,0 +1,33 @@
+{
+  "name": "safelight-impulse-noise-reduction",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Impulse Noise Reduction extension for Safelight: finds isolated bright and dark pixels and replaces them from their neighbours.",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm run build && npm test",
+    "update-types": "node scripts/update-types.mjs",
+    "test:gpu": "node test/gpu/run.cjs"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "jsdom": "^29.1.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "typescript": "~6.0.3",
+    "vite": "^8.0.16",
+    "vitest": "^4.1.10",
+    "zustand": "^5.0.14"
+  },
+  "keywords": [
+    "safelight-extension"
+  ],
+  "license": "GPL-3.0-or-later"
+}
