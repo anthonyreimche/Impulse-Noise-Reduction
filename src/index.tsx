@@ -32,6 +32,7 @@ export function activate(host: SafelightAPI): void {
     title: TITLE,
     component: ImpulseNoiseReductionPanel,
     defaultDock: { module: "develop", direction: "right", width: 280 },
+    modules: ["develop"],
     onReset: reset,
     mask: { component: ImpulseNoiseReductionPanel, owns: EDIT_KEYS.map(qualified) },
   });

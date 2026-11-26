@@ -1,7 +1,7 @@
 {
   "id": "impulse-noise-reduction",
   "name": "Impulse Noise Reduction",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes isolated bright and dark pixels, the hot pixels and speckles that ordinary noise reduction leaves, by replacing each from the pixels around it. An Enabled switch and one Threshold slider; usable inside masks.",
   "author": "Anthony Reimche",
   "main": "dist/index.js",

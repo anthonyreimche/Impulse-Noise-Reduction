@@ -1,7 +1,7 @@
 {
   "name": "safelight-impulse-noise-reduction",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Impulse Noise Reduction extension for Safelight: finds isolated bright and dark pixels and replaces them from their neighbours.",
   "type": "module",
   "scripts": {

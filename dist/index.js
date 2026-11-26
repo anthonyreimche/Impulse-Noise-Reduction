@@ -220,6 +220,7 @@ function G(e) {
 			direction: "right",
 			width: 280
 		},
+		modules: ["develop"],
 		onReset: W,
 		mask: {
 			component: v,

@@ -184,6 +184,8 @@ export interface PanelContribution {
     /** Sort position (lower = higher up). Default 100. */
     order?: number;
     defaultDock?: PanelDockDefault;
+    /** The modules the panel may be docked in; omitted, every module (Safelight 3.2.8). */
+    modules?: readonly string[];
     /** Old panel ids this panel takes the place of in saved layouts, e.g. a panel
      *  that moved here from another extension. Wherever a layout names one of
      *  them, and no registered panel uses that id any more, the dock shows this
